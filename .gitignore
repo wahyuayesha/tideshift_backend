@@ -1,0 +1,15 @@
+# Jangan upload file sensitif
+.env
+ca.pem
+
+# File sistem & cache Python
+__pycache__/
+*.pyc
+
+# File environment virtual
+venv/
+.env.bak
+.DS_Store
+
+# Log atau file sementara
+*.log
