@@ -64,7 +64,7 @@ class DailyCarbonLog(db.Model):
         }
 
 class DailyGoalsLog(db.Model):
-    __tablename__ = 'dailyGoalsLogs'
+    __tablename__ = 'dailygoalslogs'
 
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     usersId = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
